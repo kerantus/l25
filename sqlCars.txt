@@ -1,0 +1,1 @@
+CREATE  TABLE "main"."Cars" ("Id" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL  UNIQUE , "Model" VARCHAR NOT NULL , "Price" INTEGER check(typeof("Price") = 'integer') )
